@@ -69,7 +69,7 @@ p {
 /***** HEADER STYLES *****/
 
 header {
-    width: 900px;
+    width: 800px;
     /* I'm only using pixels for width because the content containers below did and I am trying to match their sizes. I would have preferred to use % but it wouldn't match the example .png file depending on the width of the viewport */
     margin: 0 auto;
 }
@@ -77,7 +77,7 @@ header {
 .header-div {
     display: flex;
     justify-content: space-between;
-    padding: 3%;
+    padding: 3% 0;
     align-items: baseline;
 }
 
@@ -93,6 +93,15 @@ nav {
     padding: 1%;
     color: black;
 
+}
+
+.header-photo {
+    height: 20vh;
+    background-image: url("/img/jumbo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
 }
 
 
