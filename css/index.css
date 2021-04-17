@@ -239,3 +239,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/***** ABOUT PAGE STYLES *****/
+
+.about-info {
+    padding: 2%;
+    border-bottom: 2px dashed black;
+}
+
+.bottom-section {
+    padding: 2%;
+}
