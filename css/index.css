@@ -66,6 +66,63 @@ p {
     line-height: 1.4;
 }
 
+/***** HEADER STYLES *****/
+
+header {
+    width: 800px;
+    /* I'm only using pixels for width because the content containers below did and I am trying to match their sizes. I would have preferred to use % but it wouldn't match the example .png file depending on the width of the viewport */
+    margin: 0 auto;
+}
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    align-items: baseline;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+ header .header-div nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5%;
+    color: black;
+
+}
+header .header-div nav a:hover {
+    color: whitesmoke;
+}
+
+
+.header-photo {
+    height: 20vh;
+    background-image: url("/img/jumbo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+}
+
+.header-photo-about {
+    height: 20vh;
+    background-image: url("/img/jumbo-about.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+/****** TOP SECTION STYLES ******/
 .container {
     width: 800px;
     margin: 0 auto;
@@ -93,6 +150,48 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+/***** BOXES *****/
+
+#teal{
+    background-color: teal;
+}
+
+#gold{
+    background-color: gold;
+}
+
+#cadetblue{
+    background-color: cadetblue;
+}
+
+#coral{
+    background-color: coral;
+}
+
+#crimson{
+    background-color: crimson;
+}
+
+#forestgreen{
+    background-color: forestgreen;
+}
+
+#darkorchid{
+    background-color: darkorchid;
+}
+
+#hotpink{
+    background-color: hotpink;
+}
+
+#indigo{
+    background-color: indigo;
+}
+
+#dodgerblue{
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes {
@@ -143,4 +242,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/***** ABOUT PAGE STYLES *****/
+
+.about-info {
+    padding: 2%;
+    margin-bottom: 4%;
+    border-bottom: 2px dashed black;
+}
+
+.bottom-section {
+    padding: 4%;
+}
+
+.middle-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.middle-section .card {
+    width: 49%;
+    padding: 3%;
+    border-bottom: 2px dashed black;
+    margin-bottom: 5%;
+}
+
+.card-images img {
+    display: inline-block;
+    width: 100%;
+}
+
+.card p {
+    padding: 5%;
+}
+
+.card h2 {
+    padding: 2%;
+}
+
+.card-buttons a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    padding: 3%;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+a:hover{
+    background-color: black;
+    color:whitesmoke;
+
 }
