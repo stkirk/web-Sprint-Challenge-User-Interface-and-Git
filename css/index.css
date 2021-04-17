@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid grey;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -95,6 +95,10 @@ nav {
     color: black;
 
 }
+header .header-div nav a:hover {
+    color: whitesmoke;
+}
+
 
 .header-photo {
     height: 20vh;
@@ -244,11 +248,12 @@ footer nav a {
 
 .about-info {
     padding: 2%;
+    margin-bottom: 4%;
     border-bottom: 2px dashed black;
 }
 
 .bottom-section {
-    padding: 2%;
+    padding: 4%;
 }
 
 .middle-section {
@@ -257,7 +262,38 @@ footer nav a {
     justify-content: space-between;
 }
 
-.middle-section div {
-    width: 45%;
+.middle-section .card {
+    width: 49%;
+    padding: 3%;
+    border-bottom: 2px dashed black;
+    margin-bottom: 5%;
+}
+
+.card-images img {
+    display: inline-block;
+    width: 100%;
+}
+
+.card p {
+    padding: 5%;
+}
+
+.card h2 {
     padding: 2%;
+}
+
+.card-buttons a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    padding: 3%;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+a:hover{
+    background-color: black;
+    color:whitesmoke;
+
 }
