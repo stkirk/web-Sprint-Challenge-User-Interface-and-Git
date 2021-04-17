@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid grey;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -99,6 +99,15 @@ nav {
 .header-photo {
     height: 20vh;
     background-image: url("/img/jumbo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3%;
+}
+
+.header-photo-about {
+    height: 20vh;
+    background-image: url("/img/jumbo-about.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
