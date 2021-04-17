@@ -66,6 +66,22 @@ p {
     line-height: 1.4;
 }
 
+/***** HEADER STYLES *****/
+
+.header-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    align-items: baseline;
+}
+
+
+
+
+
+
+
+/****** TOP SECTION STYLES ******/
 .container {
     width: 800px;
     margin: 0 auto;
